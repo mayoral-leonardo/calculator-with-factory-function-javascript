@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --footer-color: #FFFFFF;
+  --heart-color: #F50F0F;
+  --button-color: #dfdfdf;
+  --button-color-darker: #9e9e9e;
+  --button-eq-color: #0066ff;
+  --button-eq-color-darker: #003399;
+  --button-clear-color: #cc0000;
+  --button-clear-color-darker: #990000;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/background.svg');
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  color: var(--footer-color);
+}
+
+.footer p {
+  margin: 0;
+  padding: 150px;
+}
+
+.heart {
+  color: var(--heart-color);
+}
+
+.calculadora {
+  width: 400px;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border: solid;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: solid;
+  background: var(--button-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--button-color-darker);
+}
+
+.btn-eq {
+  background: var(--button-eq-color);
+}
+
+.btn-eq:hover {
+  background: var(--button-eq-color-darker);
+}
+
+.btn-clear {
+  background: var(--button-clear-color);
+}
+
+.btn-clear:hover {
+  background: var(--button-clear-color-darker);
+}
